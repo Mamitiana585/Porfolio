@@ -1,0 +1,205 @@
+:root {
+
+    --primary: #2563eb;
+    --secondary: #7c3aed;
+    --dark: #111827;
+    --background: #f8fafc;
+
+}
+header{
+
+    text-align:center;
+
+    padding:80px 20px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+* {
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:linear-gradient(
+        135deg,
+        #0f172a,
+        #1e3a8a,
+        #312e81
+    );
+
+    color:white;
+}
+
+
+section{
+
+    background:white;
+
+    color:#333;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    margin:35px 0;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+ma-div {
+    background-color: pink;
+}
+#cont{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:40px auto;
+
+}
+.navbar{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    margin:25px 0;
+
+    padding:20px;
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.navbar a:hover{
+
+    color:#60a5fa;
+}
+.navbar {
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:20px;
+    background:white;
+    border-radius:15px;
+    margin-bottom:30px;
+    text-align:center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #2563eb;
+    margin: 10px;
+}
+#hero {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+    color: white;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+
+h1{
+
+    font-size:60px;
+
+    margin-bottom:10px;
+
+}
+
+
+h2{
+
+    color:#2563eb;
+
+}
+
+
+#hero p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:15px 35px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#7c3aed;
+
+    transform:translateY(-5px);
+
+}.btn-card{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:10px 18px;
+
+    background:#2563eb;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.btn-card:hover{
+
+    background:#7c3aed;
+
+}
